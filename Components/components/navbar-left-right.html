@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="framework.css">
+  <style>
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px;
+      color: black;
+    }
+
+    .nav-logo img {
+      max-height: 40px;
+    }
+
+    .nav-items,
+    .nav-items-mobile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-items a,
+    .nav-items-mobile a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+    }
+
+
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .nav-hamburger span {
+      height: 3px;
+      width: 25px;
+      background-color: black;
+      margin: 5px 0;
+    }
+
+    .nav-items-mobile {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      right: 0;
+      /* background-color: #333; */
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    }
+
+    .nav-items-mobile.show {
+      max-height: 200px;
+      opacity: 1;
+    }
+
+    .nav-items-mobile a {
+      padding: 15px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .nav-contactBtn {
+      display: block;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .nav-hamburger {
+        display: flex;
+      }
+
+      .nav-items {
+        display: none;
+      }
+
+      .nav-items-mobile {
+        display: flex;
+      }
+
+      .nav-items-mobile a {
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .nav-contactBtn {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="container">
+    <div class="nav">
+      <div class="nav-logo">
+        <p>Logo</p>
+      </div>
+      <div class="nav-items">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+      </div>
+      <div class="nav-hamburger" onclick="toggleNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="nav-items-mobile">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Something</a>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <script>
+    function toggleNav() {
+      var navItemsMobile = document.querySelector('.nav-items-mobile');
+      navItemsMobile.classList.toggle('show');
+    }
+
+
+  </script>
+</body>
+
+</html>

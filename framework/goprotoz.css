@@ -1,0 +1,648 @@
+.heading{
+    font-size: 3rem;
+}
+
+.subHeading{
+    font-size: 1.5rem;
+}
+
+.para{
+    font-size: 1rem;
+}
+
+.subpara{
+    font-size: 0.75rem;
+}
+
+.text-xs{
+    font-size: 0.75rem;
+}
+
+.text-sm{
+    font-size: 0.87rem;
+}
+
+.text-md{
+    font-size: 1rem;
+}
+
+.text-lg{
+    font-size: 1.125rem;
+}
+
+.text-xl{
+    font-size: 1.25rem;
+}
+
+.text-2xl{
+    font-size: 1.5rem;
+}
+
+.text-3xl{
+    font-size: 1.875rem;
+}
+
+.text-4xl{
+    font-size: 2.25rem;
+}
+
+.text-5xl{
+    font-size: 3rem;
+}
+
+.text-6xl{
+    font-size: 3.75rem;
+}
+
+.text-7xl{
+    font-size: 4.5rem;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.regular{
+    font-weight: 400;
+}
+
+.medium{
+    font-weight: 500;
+}
+
+.semibold{
+    font-weight: 600;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.xbold{
+    font-weight: 800;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.normal{
+    font-style: normal;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.dec-dash{
+    text-decoration: dashed;
+}
+
+.dec-dot{
+    text-decoration: dotted;
+}
+
+.dec-double{
+    text-decoration: double;
+}
+
+.dec-line{
+    text-decoration: line;
+}
+
+.dec-none{
+    text-decoration: none;
+}
+
+.text-cap{
+    text-transform: capitalize;
+}
+
+.text-low{
+    text-transform: lowercase;
+}
+
+.text-up{
+    text-transform: uppercase;
+}
+
+.breakall{
+    word-break: break-all;
+}
+
+.keepall{
+    word-break: keep-all;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.p-fixed{
+    position: fixed;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-static{
+    position: static;
+}
+
+.p-sticky{
+    position: sticky;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-content{
+    display: contents;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-grid{
+    display: grid;
+}
+
+.d-inline{
+    display: inline;
+}
+
+.d-inblock{
+    display: inline-block;
+}
+
+.d-inflex{
+    display: inline-flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+table{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+
+
+/* Mobile Screen - ms */
+@media (max-width: 768px) {
+    .heading{
+        font-size: 2.2rem;
+    }
+    .text-ms-xs{
+        font-size: 0.75rem;
+    }
+    
+    .text-ms-sm{
+        font-size: 0.87rem;
+    }
+    
+    .text-ms-md{
+        font-size: 1rem;
+    }
+    
+    .text-ms-lg{
+        font-size: 1.125rem;
+    }
+    
+    .text-ms-xl{
+        font-size: 1.25rem;
+    }
+    
+    .text-ms-2xl{
+        font-size: 1.5rem;
+    }
+    
+    .text-ms-3xl{
+        font-size: 1.875rem;
+    }
+    
+    .text-ms-4xl{
+        font-size: 2.25rem;
+    }
+    
+    .text-ms-5xl{
+        font-size: 3rem;
+    }
+    
+    .text-ms-6xl{
+        font-size: 3.75rem;
+    }
+    
+    .text-ms-7xl{
+        font-size: 4.5rem;
+    }
+
+    .text-ms-left{
+        text-align: left;
+    }
+    
+    .text-ms-right{
+        text-align: right;
+    }
+    
+    .text-ms-center{
+        text-align: center;
+    }
+
+    .d-ms-block{
+        display: block;
+    }
+    
+    .d-ms-content{
+        display: contents;
+    }
+    
+    .d-ms-flex{
+        display: flex;
+    }
+    
+    .d-ms-grid{
+        display: grid;
+    }
+    
+    .d-ms-inline{
+        display: inline;
+    }
+    
+    .d-ms-inblock{
+        display: inline-block;
+    }
+    
+    .d-ms-inflex{
+        display: inline-flex;
+    }
+}
+
+/* Tab Screen - ts */
+@media (max-width: 960px) {
+    .heading{
+        font-size: 2.1rem;
+    }
+    .text-ts-xs{
+        font-size: 0.75rem;
+    }
+    
+    .text-ts-sm{
+        font-size: 0.87rem;
+    }
+    
+    .text-ts-md{
+        font-size: 1rem;
+    }
+    
+    .text-ts-lg{
+        font-size: 1.125rem;
+    }
+    
+    .text-ts-xl{
+        font-size: 1.25rem;
+    }
+    
+    .text-ts-2xl{
+        font-size: 1.5rem;
+    }
+    
+    .text-ts-3xl{
+        font-size: 1.875rem;
+    }
+    
+    .text-ts-4xl{
+        font-size: 2.25rem;
+    }
+    
+    .text-ts-5xl{
+        font-size: 3rem;
+    }
+    
+    .text-ts-6xl{
+        font-size: 3.75rem;
+    }
+    
+    .text-ts-7xl{
+        font-size: 4.5rem;
+    }
+
+    .text-ts-left{
+        text-align: left;
+    }
+    
+    .text-ts-right{
+        text-align: right;
+    }
+    
+    .text-ts-center{
+        text-align: center;
+    }
+
+    .d-ts-block{
+        display: block;
+    }
+    
+    .d-ts-content{
+        display: contents;
+    }
+    
+    .d-ts-flex{
+        display: flex;
+    }
+    
+    .d-ts-grid{
+        display: grid;
+    }
+    
+    .d-ts-inline{
+        display: inline;
+    }
+    
+    .d-ts-inblock{
+        display: inline-block;
+    }
+    
+    .d-ts-inflex{
+        display: inline-flex;
+    }
+}
+
+/* Small Screen - ss */
+@media (min-width: 1280px) {
+    .text-ss-xs{
+        font-size: 0.75rem;
+    }
+    
+    .text-ss-sm{
+        font-size: 0.87rem;
+    }
+    
+    .text-ss-md{
+        font-size: 1rem;
+    }
+    
+    .text-ss-lg{
+        font-size: 1.125rem;
+    }
+    
+    .text-ss-xl{
+        font-size: 1.25rem;
+    }
+    
+    .text-ss-2xl{
+        font-size: 1.5rem;
+    }
+    
+    .text-ss-3xl{
+        font-size: 1.875rem;
+    }
+    
+    .text-ss-4xl{
+        font-size: 2.25rem;
+    }
+    
+    .text-ss-5xl{
+        font-size: 3rem;
+    }
+    
+    .text-ss-6xl{
+        font-size: 3.75rem;
+    }
+    
+    .text-ss-7xl{
+        font-size: 4.5rem;
+    }
+    .text-ss-left{
+        text-align: left;
+    }
+    
+    .text-ss-right{
+        text-align: right;
+    }
+    
+    .text-ss-center{
+        text-align: center;
+    }
+
+    .d-ss-block{
+        display: block;
+    }
+    
+    .d-ss-content{
+        display: contents;
+    }
+    
+    .d-ss-flex{
+        display: flex;
+    }
+    
+    .d-ss-grid{
+        display: grid;
+    }
+    
+    .d-ss-inline{
+        display: inline;
+    }
+    
+    .d-ss-inblock{
+        display: inline-block;
+    }
+    
+    .d-ss-inflex{
+        display: inline-flex;
+    }
+}
+
+/* Large Screen - ls */
+@media (min-width: 1400px) {
+    .text-ls-xs{
+        font-size: 0.75rem;
+    }
+    
+    .text-ls-sm{
+        font-size: 0.87rem;
+    }
+    
+    .text-ls-md{
+        font-size: 1rem;
+    }
+    
+    .text-ls-lg{
+        font-size: 1.125rem;
+    }
+    
+    .text-ls-xl{
+        font-size: 1.25rem;
+    }
+    
+    .text-ls-2xl{
+        font-size: 1.5rem;
+    }
+    
+    .text-ls-3xl{
+        font-size: 1.875rem;
+    }
+    
+    .text-ls-4xl{
+        font-size: 2.25rem;
+    }
+    
+    .text-ls-5xl{
+        font-size: 3rem;
+    }
+    
+    .text-ls-6xl{
+        font-size: 3.75rem;
+    }
+    
+    .text-ls-7xl{
+        font-size: 4.5rem;
+    }
+
+    .text-ls-left{
+        text-align: left;
+    }
+    
+    .text-ls-right{
+        text-align: right;
+    }
+    
+    .text-ls-center{
+        text-align: center;
+    }
+    .d-ls-block{
+        display: block;
+    }
+    
+    .d-ls-content{
+        display: contents;
+    }
+    
+    .d-ls-flex{
+        display: flex;
+    }
+    
+    .d-ls-grid{
+        display: grid;
+    }
+    
+    .d-ls-inline{
+        display: inline;
+    }
+    
+    .d-ls-inblock{
+        display: inline-block;
+    }
+    
+    .d-ls-inflex{
+        display: inline-flex;
+    }
+}
+
+/* Extra Large Screen - xls */
+@media (min-width: 1460px) {
+    .text-xls-xs{
+        font-size: 0.75rem;
+    }
+    
+    .text-xls-sm{
+        font-size: 0.87rem;
+    }
+    
+    .text-xls-md{
+        font-size: 1rem;
+    }
+    
+    .text-xls-lg{
+        font-size: 1.125rem;
+    }
+    
+    .text-xls-xl{
+        font-size: 1.25rem;
+    }
+    
+    .text-xls-2xl{
+        font-size: 1.5rem;
+    }
+    
+    .text-xls-3xl{
+        font-size: 1.875rem;
+    }
+    
+    .text-xls-4xl{
+        font-size: 2.25rem;
+    }
+    
+    .text-xls-5xl{
+        font-size: 3rem;
+    }
+    
+    .text-xls-6xl{
+        font-size: 3.75rem;
+    }
+    
+    .text-xls-7xl{
+        font-size: 4.5rem;
+    }
+
+    .text-xls-left{
+        text-align: left;
+    }
+    
+    .text-xls-right{
+        text-align: right;
+    }
+    
+    .text-xls-center{
+        text-align: center;
+    }
+    .d-xls-block{
+        display: block;
+    }
+    
+    .d-xls-content{
+        display: contents;
+    }
+    
+    .d-xls-flex{
+        display: flex;
+    }
+    
+    .d-xls-grid{
+        display: grid;
+    }
+    
+    .d-xls-inline{
+        display: inline;
+    }
+    
+    .d-xls-inblock{
+        display: inline-block;
+    }
+    
+    .d-xls-inflex{
+        display: inline-flex;
+    }
+}
